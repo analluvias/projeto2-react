@@ -1,0 +1,55 @@
+/*
+components -> pasta onde ficarão todos o smeus components
+
+Header -> pasta do meu componente Header (cabeçalho)
+
+
+aqui estamos criando o css do meu componente Header
+
+Lembrando que um componente é uma parte do código que pode ser reaproveitada
+
+Existe uma convenção de que toda pasta de componente deve iniciar com a letra
+maiúscula, e também o nome de seu css.
+*/
+.header {
+
+    background-color: #000;
+    color: #555;
+    border-bottom: 2px solid pink;
+    top: 0;
+    width: 100%;
+    height: 68px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+#instagram{
+    position: absolute;
+    right: 100px;
+    padding-top: 15px;
+    /* opacity: 0; */
+}
+
+#imgInstagram{
+    width: 35px;
+    height: 35px;
+}
+
+
+
+#linkedin{
+    padding-top: 5px;
+    right: 20px;
+    /* float: right; */
+}
+
+
+#imgLinkedin{
+    width: 50px;
+    height: 50px;
+}
+
+.header div{
+    display: inline-block;
+}
