@@ -28,7 +28,7 @@ maiúscula, e também o nome de seu css.
 
 #instagram{
     position: absolute;
-    right: 100px;
+    right: 60px;
     padding-top: 15px;
     /* opacity: 0; */
 }
@@ -40,17 +40,6 @@ maiúscula, e também o nome de seu css.
 
 
 
-#linkedin{
-    padding-top: 5px;
-    right: 20px;
-    /* float: right; */
-}
-
-
-#imgLinkedin{
-    width: 50px;
-    height: 50px;
-}
 
 /* .header div{
     display: inline-block;
