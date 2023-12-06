@@ -1,0 +1,25 @@
+/*
+components -> pasta onde ficarão todos o smeus components
+
+Header -> pasta do meu componente Header (cabeçalho)
+
+
+aqui estamos criando o css do meu componente Header
+
+Lembrando que um componente é uma parte do código que pode ser reaproveitada
+
+Existe uma convenção de que toda pasta de componente deve iniciar com a letra
+maiúscula, e também o nome de seu css.
+*/
+
+.showcase {
+    padding-top: 5%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #F5CADD;
+    position: absolute;
+    z-index: 1;
+}

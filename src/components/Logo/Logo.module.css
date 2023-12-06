@@ -1,0 +1,10 @@
+.logo{
+    display: flex;
+    align-items: center; /* Adicione esta linha para centralizar verticalmente */
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    top: 14%; /* Posiciona o elemento no meio da altura do contêiner pai */
+    left: 50%; /* Posiciona o elemento no meio da largura do contêiner pai */
+    transform: translate(-50%, -50%); /* Corrige o posicionamento para o centro exato */
+}
